@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicios de tablas</title>
+    <title>Tablas & Formularios</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
@@ -199,6 +199,54 @@
                 <td>XSL Formatting Objects</td>
             </tr>
         </table>
+    </div>
+    <hr>
+    <div>
+        <h1>Formularios</h1>
+        <form action="" method="get" id="form-registro">
+            <h2>Formulario Registro</h2>
+        
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+            </div>
+        
+            <div class="form-group">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos">
+            </div>
+        
+            <div class="form-group">
+                <label>Sexo:</label>
+                <div class="radio-group">
+                    <input type="radio" name="genero" id="masculino">
+                    <label for="masculino">Masculino</label>
+        
+                    <input type="radio" name="genero" id="femenino">
+                    <label for="femenino">Femenino</label>
+                </div>
+            </div>
+        
+            <div class="form-group">
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com">
+            </div>
+        
+            <div class="form-group">
+                <input type="checkbox" id="informacion" checked>
+                <label for="informacion">Deseo recibir información sobre novedades y ofertas</label>
+            </div>
+        
+            <div class="form-group">
+                <input type="checkbox" id="declarar">
+                <label for="declarar">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+            </div>
+        
+            <div class="form-group">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+        
     </div>
 
 
