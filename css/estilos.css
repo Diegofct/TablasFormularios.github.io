@@ -1,0 +1,26 @@
+#first-table, th,td {
+    border: 1px solid black;
+}
+
+#second-table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    
+}
+
+#third-table {
+    border: 1px solid black;
+}
+
+.yellow {
+    background: lightyellow;
+}
+
+.green {
+    background: lightgreen;
+}
+
+.purple {
+    background: violet;
+}
